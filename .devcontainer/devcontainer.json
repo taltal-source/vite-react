@@ -1,0 +1,38 @@
+{
+  "name": "React Example App",
+  "dockerComposeFile": ["../docker-compose.dev.yml"],
+  "service": "coffee",
+  "workspaceFolder": "/home/node/app",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "MS-CEINTL.vscode-language-pack-ja", // Visual Studio Codeの日本語言語パック
+        "formulahendry.auto-close-tag", // HTML Auto Close Tag
+        "bradlc.vscode-tailwindcss", // Tailwind CSS IntelliSense
+        "dbaeumer.vscode-eslint", // ESLint
+        "esbenp.prettier-vscode", // prettier
+        "PKief.material-icon-theme" // iconパック
+      ],
+      "settings":{
+        "files.associations": {
+          "*.css": "tailwindcss"
+        },
+        "tailwindCSS.classAttributes": [
+          "class",
+          "className",
+          "ngClass",
+          ".*Styles.*",
+          ".*Style.*"
+        ],
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": "explicit"
+        }
+      }
+    }
+  },
+  "remoteUser": "node"
+}
