@@ -1,12 +1,14 @@
 services:
   coffee:
     build:
-      args:
-        - NODE_VER=22.7.0
       context: .
-    dockerfile: containers/app/Dockerfile.development
+      dockerfile: containers/app/Dockerfile.development
     command: >
       sh -c "sleep infinity"
     tty: true
     volumes:
+      - node_modules:/home/node/app/node_modules
       - .:/home/node/app
+
+volumes:
+    node_modules:

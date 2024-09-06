@@ -1,6 +1,6 @@
 {
   "name": "React Example App",
-  "dockerComposeFile": ["../docker-compose.dev.yml"],
+  "dockerComposeFile": ["../docker-compose.yml"],
   "service": "coffee",
   "workspaceFolder": "/home/node/app",
   "customizations": {
