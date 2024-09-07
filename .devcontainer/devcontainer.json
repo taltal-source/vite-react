@@ -11,27 +11,10 @@
         "bradlc.vscode-tailwindcss", // Tailwind CSS IntelliSense
         "dbaeumer.vscode-eslint", // ESLint
         "esbenp.prettier-vscode", // prettier
-        "PKief.material-icon-theme" // iconパック
-      ],
-      "settings":{
-        "files.associations": {
-          "*.css": "tailwindcss"
-        },
-        "tailwindCSS.classAttributes": [
-          "class",
-          "className",
-          "ngClass",
-          ".*Styles.*",
-          ".*Style.*"
-        ],
-        "editor.formatOnSave": true,
-        "editor.formatOnPaste": true,
-        "editor.formatOnType": true,
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.codeActionsOnSave": {
-          "source.fixAll.eslint": "explicit"
-        }
-      }
+        "PKief.material-icon-theme", // iconパック
+        "xabikos.ReactSnippets", // React Code Snippets
+        "xabikos.JavaScriptSnippets" // JS Code Snippets
+      ]
     }
   },
   "remoteUser": "node"
