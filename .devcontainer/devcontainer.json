@@ -7,7 +7,6 @@
     "vscode": {
       "extensions": [
         "MS-CEINTL.vscode-language-pack-ja", // Visual Studio Codeの日本語言語パック
-        "formulahendry.auto-close-tag", // HTML Auto Close Tag
         "bradlc.vscode-tailwindcss", // Tailwind CSS IntelliSense
         "dbaeumer.vscode-eslint", // ESLint
         "esbenp.prettier-vscode", // prettier
